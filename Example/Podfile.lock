@@ -1,0 +1,61 @@
+PODS:
+  - Alamofire (5.6.4)
+  - API (1.0.0):
+    - Alamofire (~> 5.4)
+    - Core
+    - SVProgressHUD
+    - TUSKit (~> 1.4.2)
+  - Core (1.0.0):
+    - FontAwesome
+    - ObjectMapper (= 4.2.0)
+    - RxSwift
+    - SwiftDate
+  - FontAwesome (4.5.0)
+  - ObjectMapper (4.2.0)
+  - RxSwift (6.5.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftDate (6.3.1)
+  - TUSKit (1.4.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - API (from `../`)
+  - Core (from `https://github.com/syquandev/Core`)
+  - SVProgressHUD
+  - TUSKit (~> 1.4.2)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FontAwesome
+    - ObjectMapper
+    - RxSwift
+    - SVProgressHUD
+    - SwiftDate
+    - TUSKit
+
+EXTERNAL SOURCES:
+  API:
+    :path: "../"
+  Core:
+    :git: https://github.com/syquandev/Core
+
+CHECKOUT OPTIONS:
+  Core:
+    :commit: 498417b367d613fc3e64de5cbd0da25318dd0d12
+    :git: https://github.com/syquandev/Core
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  API: b3afe06d44dd8a0c6f2005a24e4d416606671d7d
+  Core: f4b43d092ccf95efd42ecfe6265fa2681ff1c5e6
+  FontAwesome: dd8c48bf965e771309d8af17c4d8579217b3e756
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
+  TUSKit: 4bcc2fe13e1b4d6c3bfbaca57d64e64c1be31201
+
+PODFILE CHECKSUM: 5ee15308d3f278ce212fc36d0d9d572d5e355b18
+
+COCOAPODS: 1.11.3

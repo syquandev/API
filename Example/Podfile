@@ -1,0 +1,18 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'API_Example' do
+  pod 'API', :path => '../'
+  
+  pod 'Core', git: 'https://github.com/syquandev/Core'
+  pod 'Alamofire', '~> 5.4'
+  pod 'TUSKit', '~> 1.4.2'
+  pod 'SVProgressHUD'
+  
+  target 'API_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

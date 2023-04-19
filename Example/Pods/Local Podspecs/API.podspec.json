@@ -1,0 +1,48 @@
+{
+  "name": "API",
+  "version": "1.0.0",
+  "summary": "A short description of API.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/95286760/API",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "95286760": "lasyquan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/95286760/API.git",
+    "tag": "1.0.0"
+  },
+  "swift_versions": "4.2",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "API/Classes/**/*",
+  "resource_bundles": {
+    "API": [
+      "API/Assets/Storyboards/**/*.storyboard",
+      "API/Assets/Xibs/**/*.xib",
+      "API/Assets/Resources/**/*.xcassets",
+      "API/Classes/**/*.xib",
+      "API/Classes/**/*.storyboard"
+    ]
+  },
+  "static_framework": true,
+  "dependencies": {
+    "Core": [
+
+    ],
+    "Alamofire": [
+      "~> 5.4"
+    ],
+    "TUSKit": [
+      "~> 1.4.2"
+    ],
+    "SVProgressHUD": [
+
+    ]
+  },
+  "swift_version": "4.2"
+}
